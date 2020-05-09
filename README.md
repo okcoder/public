@@ -1,5 +1,15 @@
 # public
 
+Version 1803 (OS Build 17134.706)
+Microsoft Windows [Version 10.0.17134.706]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\IEUser>git --version
+git version 2.26.2.windows.1
+
+C:\Users\IEUser>
+
+
 ssh-keygen  -t ed25519 -N "" -f ~/.ssh/id_ed25519
 
 
