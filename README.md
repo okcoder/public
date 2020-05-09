@@ -47,3 +47,27 @@ remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
+
+
+
+
+
+  147  sudo -E apt update
+  148  sudo -E apt install connect-proxy
+  149  ssh -T git@github.com
+  
+  user@ubuntu:~$ ssh -T git@github.com
+The authenticity of host '[ssh.github.com]:443 (<no hostip for proxy command>)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '[ssh.github.com]:443' (RSA) to the list of known hosts.
+Hi okcoder! You've successfully authenticated, but GitHub does not provide shell access.
+    
+    
+    user@ubuntu:~$ git clone git@github.com:okcoder/private.git
+Cloning into 'private'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+Receiving objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+
