@@ -86,3 +86,9 @@ Receiving objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 
 ```
+
+http://re-dzine.net/2012/08/over-proxy-github/
+http://luozengbin.blogspot.com/2011/07/ssh-over-proxygithubwindows.html
+https://qiita.com/tueda/items/4a7d12def8b61b75387b
+
+
