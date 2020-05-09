@@ -12,11 +12,22 @@ cat <<EOF | tee >>~/.ssh/config
 Host github.com
     HostName ssh.github.com
     Port 443
-    ProxyCommand connect-proxy -H 192.168.56.1:3128 %h %p
+    ProxyCommand connect -H 192.168.56.1:3128 %h %p
 
 EOF
 
 ssh git -T git@github.com
 
-git clone git@github.com:okcoder/what-happened-to-browse-rakuten-site.git
+IEUser@MSEDGEWIN10 MINGW64 ~/Desktop/git
+$ ssh -T git@github.com
+The authenticity of host '[ssh.github.com]:443 (<no hostip for proxy command>)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[ssh.github.com]:443' (RSA) to the list of known hosts.
+Hi okcoder! You've successfully authenticated, but GitHub does not provide shell access.
+
+IEUser@MSEDGEWIN10 MINGW64 ~/Desktop/git
+
+
+git clone git@github.com:okcoder/private.git
 
