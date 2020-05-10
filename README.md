@@ -92,3 +92,8 @@ http://luozengbin.blogspot.com/2011/07/ssh-over-proxygithubwindows.html
 https://qiita.com/tueda/items/4a7d12def8b61b75387b
 
 
+
+```
+sudo -E yum install connect-proxy
+sudo ln /usr/bin/connect-proxy /usr/bin/connect
+```
